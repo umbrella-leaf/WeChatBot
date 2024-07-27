@@ -86,6 +86,9 @@ available_setting = {
     "qwen_node_id": "",  # 流程编排模型用到的id，如果没有用到qwen_node_id，请务必保持为空字符串
     # 阿里灵积(通义新版sdk)模型api key
     "dashscope_api_key": "",
+    # 字节豆包大模型api key
+    "doubao_api_key": "",
+    "doubao_bot_id": "",  # 豆包模型的bot id
     # Google Gemini Api Key
     "gemini_api_key": "",
     # wework的通用配置

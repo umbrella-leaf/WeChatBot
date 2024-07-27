@@ -36,6 +36,9 @@ class Bridge(object):
                 self.btype["chat"] = const.QWEN
             if model_type in [const.QWEN_TURBO, const.QWEN_PLUS, const.QWEN_MAX]:
                 self.btype["chat"] = const.QWEN_DASHSCOPE
+            if model_type in [const.DOUBAO_LITE_4K, const.DOUBAO_LITE_32K, const.DOUBAO_LITE_128K, const.DOUBAO_PRO_4K, const.DOUBAO_PRO_32K, const.DOUBAO_PRO_128K]\
+                    or conf().get("doubao_bot_id"):
+                self.btype["chat"] = const.DOUBAO
             if model_type and model_type.startswith("gemini"):
                 self.btype["chat"] = const.GEMINI
             if model_type in [const.ZHIPU_AI]:

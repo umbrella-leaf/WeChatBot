@@ -9,6 +9,7 @@ CLAUDEAI = "claude"  # 使用cookie的历史模型
 CLAUDEAPI= "claudeAPI"  # 通过Claude api调用模型
 QWEN = "qwen"  # 旧版通义模型
 QWEN_DASHSCOPE = "dashscope"  # 通义新版sdk和api key
+DOUBAO = "doubao"  # 豆包对话模型
 
 
 GEMINI = "gemini"  # gemini-1.0-pro
@@ -47,6 +48,14 @@ WEN_XIN_4 = "wenxin-4"
 QWEN_TURBO = "qwen-turbo"
 QWEN_PLUS = "qwen-plus"
 QWEN_MAX = "qwen-max"
+
+DOUBAO_LITE_4K = "doubao_lite_4k"
+DOUBAO_LITE_32K = "doubao_lite_32k"
+DOUBAO_LITE_128K = "doubao_lite_128k"
+DOUBAO_PRO_4K = "doubao_pro_4k"
+DOUBAO_PRO_32K = "doubao_pro_32k"
+DOUBAO_PRO_128K = "doubao_pro_128k"
+
 
 LINKAI_35 = "linkai-3.5"
 LINKAI_4_TURBO = "linkai-4-turbo"
